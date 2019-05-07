@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:////home/juanca/rti_connext_dds-5.3.1/bin/../resource/app/app_support/rtiddsgen/schema/rti_dds_topic_types.xsd">
+<include file="Header.xml"/>
+<module name="sensor_msgs">
+  <module name="msg">
+    <struct name= "JointState">
+      <member name="header" type="nonBasic"  nonBasicTypeName= "std_msgs::msg::Header"/>
+      <member name="name" sequenceMaxLength="-1" type="string"/>
+      <member name="position" sequenceMaxLength="-1" type="float64"/>
+      <member name="velocity" sequenceMaxLength="-1" type="float64"/>
+      <member name="effort" sequenceMaxLength="-1" type="float64"/>
+    </struct>
+  </module>
+</module>
+</types>
