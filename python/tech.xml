@@ -17,7 +17,7 @@ This code contains trade secrets of Real-Time Innovations, Inc.
 					 is_default_qos="true">
 			<participant_qos>
 				<transport_builtin>
-				    <mask>UDPV4 | SHMEM</mask>
+				    <mask>UDPV4|SHMEM</mask>
 				</transport_builtin>
 			</participant_qos>
 		</qos_profile>
