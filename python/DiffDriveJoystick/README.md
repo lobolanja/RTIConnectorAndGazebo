@@ -7,4 +7,11 @@ Aplication that convert the position of a square published for [RTI Shapes Demo]
 It is an aplication that receive the RTI Shapes Demo Messages, and convert them into messages to set the velocity and direction of the Differential Drive Robot.
 
 # How To Run
-[Run Gazebo and differential Drive World](https://github.com/rticommunity/gazebo-dds-plugins/blob/master/src/diff_drive/README.md)
+1. [Run Gazebo and differential Drive World](https://github.com/rticommunity/gazebo-dds-plugins/blob/master/src/diff_drive/README.md)
+
+2. Run The joystick script. Take into account that it will finish after few minutes.
+
+3. Run RTI Shapes Demo, and publish a square.
+
+
+
